@@ -1,4 +1,4 @@
-ARG  FROMIMAGE=cp.icr.io/cp/appc/ace-server-prod@sha256:c41154c17a30bbbb6e1e4593c965f49ef3c86260e71143b8f33a6fbca277a3b9
+ARG  FROMIMAGE=cp.icr.io/cp/appc/ace:12.0.12.12-r1@sha256:741d46bc6739d8689ffda6d11fac877cca64b84d7027779148902ebb247bde81
 FROM ${FROMIMAGE}
 
 USER root
