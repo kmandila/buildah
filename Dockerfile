@@ -2,7 +2,7 @@ ARG  FROMIMAGE=cp.icr.io/cp/appc/ace:12.0.12.12-r1@sha256:741d46bc6739d8689ffda6
 FROM ${FROMIMAGE}
 
 USER root
-# - RUN echo $PWD
+RUN echo $PWD
 # Copy the BAR files into /tmp and process them:
 #
 # - Each file is compiled to ensure faster server startup
