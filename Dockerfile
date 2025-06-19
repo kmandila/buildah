@@ -1,4 +1,4 @@
-ARG  FROMIMAGE=ace-minimal:13.0.1.0-alpine
+ARG  FROMIMAGE=cp.icr.io/cp/appc/ace:12.0.12.12-r1@sha256:741d46bc6739d8689ffda6d11fac877cca64b84d7027779148902ebb247bde81
 FROM ${FROMIMAGE}
 
 USER root
