@@ -1,4 +1,4 @@
-ARG  FROMIMAGE=ace-server-prod:13.0.1.0-r11
+ARG  FROMIMAGE=ace-minimal:13.0.1.0-alpine
 FROM ${FROMIMAGE}
 
 USER root
