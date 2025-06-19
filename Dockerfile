@@ -22,4 +22,4 @@ RUN export LICENSE=accept \
     && ibmint optimize server --work-dir /home/aceuser/ace-server \
     && chmod -R ugo+rwx /home/aceuser/
 
-USER 1000
+USER 0
